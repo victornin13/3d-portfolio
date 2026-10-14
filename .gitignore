@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Large media (GitHub rejects files over 100 MB)
+public/ECE 2140 Final Project Video.mov
+dist/ECE 2140 Final Project Video.mov
+
+# Local secrets
+.env
+.env.*
+!.env.example
